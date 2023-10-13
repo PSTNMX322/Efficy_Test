@@ -1,0 +1,19 @@
+body {
+}
+
+form {
+    gap: 10px;
+}
+
+form > input {
+    text-align: right;
+}
+
+form > button {
+    display: flex;
+    margin-top: 10px;
+}
+
+.output {
+    font-family: monospace;
+}
