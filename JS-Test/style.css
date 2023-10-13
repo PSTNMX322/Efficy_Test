@@ -1,12 +1,20 @@
-body {
-}
 
 form {
-    gap: 10px;
+    margin: 0px;
 }
 
 form > input {
     text-align: right;
+    width : 70px;
+    padding-right: 10px;
+    /* For Firefox */
+    -moz-appearance: textfield;
+}
+
+/* For all browsers */
+form > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 form > button {
@@ -16,4 +24,5 @@ form > button {
 
 .output {
     font-family: monospace;
+        margin-top: 10px;
 }
